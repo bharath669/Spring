@@ -5,4 +5,7 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <!-- bean definitions here -->
+    <bean id="MyBean" class="com.car.bean.MyBean">
+        <property name="message" value="I am first bean"/>
+    </bean>
 </beans>
